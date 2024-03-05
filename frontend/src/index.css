@@ -4,7 +4,7 @@
 
 @layer base {
   section {
-    @apply py-[750px]
+    @apply py-[50px]
   }
 }
 
@@ -14,7 +14,7 @@
   }
 
   .btn {
-    @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px]
+    @apply bg-primaryColor py-[20px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px]
   }
 
   .heading {
@@ -53,4 +53,5 @@ section {
   .text_pare {
     @apply text-[16px] leading-7 mt-3;
   }
+
 }

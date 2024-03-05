@@ -5,7 +5,7 @@ import heroImg02 from '../assets/images/hero-img02.png';
 import heroImg03 from '../assets/images/hero-img03.png';
 import icon01 from '../assets/images/icon01.png';
 import { Link } from 'react-router-dom'; 
-import {BsRightArrow} from 'react-icons/bs';
+import {BsArrowRight} from 'react-icons/bs';
 
 
 
@@ -72,7 +72,7 @@ const Home = () => {
         </div>
       </section>
       {/* ========= Hero Section end ======= */}
-      <section>
+      <section className="">
         <div className="container">
           <div className="lg:w-[470px] mx-auto">
             <h2 className="heading text-center">
@@ -93,7 +93,7 @@ const Home = () => {
                   </p>
 
                   <Link to='/doctors' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none">
-                    <BsRightArrow/>
+                    <BsArrowRight className="group-hover:text-white w-6 h-5" />
                   </Link>
               </div>
               </div>            
