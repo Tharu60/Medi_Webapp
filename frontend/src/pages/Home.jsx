@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom';
 import {BsArrowRight} from 'react-icons/bs';
 import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList";
+import DoctorList from "../components/Doctors/DoctorList";
 
 
 
@@ -221,6 +222,20 @@ const Home = () => {
       </section>
 
       {/* ========= Feature Section end ======= */}
+      {/* ========= Our grate doctors ======= */}
+      <section>
+        <div className="container">
+        <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">Our Grat Doctors</h2>
+            <p className="text_para text-center">
+              World-class care for everyone. Our health System offers unmatched, expert health care.
+            </p>
+          </div>
+          <DoctorList />
+        </div>
+      </section>
+      {/* ========= Our grate doctors end ======= */}
+
 
     </>
   );
