@@ -16,7 +16,7 @@ import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList";
 import DoctorList from "../components/Doctors/DoctorList";
 import FaqList from "../components/Faq/FaqList";
-import Testimonial from '../components/Testimonial/Testimonial';
+//import Testimonial from '../components/Testimonial/Testimonial';
 
 
 
@@ -269,7 +269,7 @@ const Home = () => {
               World-class care for everyone. Our health System offers unmatched, expert health care.
             </p>
           </div>
-          <Testimonial />
+          {/*<Testimonial />*/}
         </div>
       </section>
       {/* ========= Testimonial end ======= */}
