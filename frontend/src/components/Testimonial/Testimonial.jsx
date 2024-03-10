@@ -1,6 +1,6 @@
 import React from 'react'
-import { Pagination } from 'swiper'
-import { Swiper, SwiperSlid } from 'swiper/react'
+import { pagination } from '/node_modules/.vite/deps/swiper.js?v=2bd4c67d';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'
 import 'swiper/css/pagination'
 import patienAvatar from '../../assets/images/patient-avatar.png'
@@ -11,7 +11,7 @@ const Testimonial = () => {
   return (
     <div className='mt-[30px] lg:mt-[55px]'>
       <Swiper
-        modules={[Pagination]}
+        modules={[pagination]}
         spaceBetween={30}
         slidesPerView={1}
         pagination={{ clickable: true }}
@@ -29,7 +29,7 @@ const Testimonial = () => {
             spaceBetween: 30,
           },
         }}>
-        <SwiperSlide>
+        <swiperSlide>
           <div className='py-[30px] px-5 rounded-3'>
             <div className='flex item-center gap-[13px]'>
               <img src={patienAvatar} alt="" />
@@ -51,7 +51,7 @@ const Testimonial = () => {
             </p>
           </div>
 
-        </SwiperSlide>
+        </swiperSlide>
         <SwiperSlide>
           <div className='py-[30px] px-5 rounded-3'>
             <div className='flex item-center gap-[13px]'>

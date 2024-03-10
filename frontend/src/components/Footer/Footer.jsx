@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
-import {RiLinkdinFill} from 'react-icons/ri'
+import {RiLinkedinFill} from 'react-icons/ri'
 import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiOutlineInstagram } from 'react-icons/ai';
 
 const socialLinks = [
@@ -19,7 +19,7 @@ const socialLinks = [
   },
   {
     path: "https://www.linkedin.com/in/tharakal/",
-    icon: <RiLinkdinFill className='group-hover:text-white w-4 h-5' />,
+    icon: <RiLinkedinFill className='group-hover:text-white w-4 h-5' />,
   },
 ];
 
